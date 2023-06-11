@@ -1,0 +1,43 @@
+.extension-main{
+    position: absolute;
+    top: 0 ;
+    right: 0 ;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    outline: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 0px 17px 35px 0px rgba(0,0,0,0.1);
+}
+
+.extension-main > h3{
+    font-weight: bolder;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+}
+
+.extension-main > .wrapper > p{
+    text-align: center;
+}
+
+#extension-email-delete-btn{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+#extension-email-delete-btn:hover{
+    background-color: rgba(255, 0, 0, 0.623);
+    color: white;
+}

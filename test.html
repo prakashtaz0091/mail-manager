@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="extension-main">
+        <button style="
+                width: fit-content;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                background-color: black;
+                padding: 5px;
+                font-size: large;
+                border: none;
+                outline: none;
+            "
+            id="ext-cancel-btn"
+            >X</button>
+        <h3>Mail Manager</h3>
+        <div class="wrapper">
+            <p>Mention your important mail addresses here</p>
+            <textarea name="emails" id="emails" cols="30" rows="10" 
+            placeholder="mail1@gmail.com, mail2@gmail.com, mail3@gmail.com "
+            style="
+            max-width: 380px;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.658);
+            color: white;
+            font-weight: bold;
+            "
+            ></textarea>
+            
+            <button id="extension-email-delete-btn" >Delete Others</button>
+
+        </div>
+    </div>
+    
+</body>
+</html>
